@@ -34,3 +34,17 @@
 .container__botao:checked ~.lista-menu{
     display: block;
 }
+.lista-menu__titulo,.lista-menu__item{
+    padding: 1em; 
+    background-color: var(--branco);
+}
+.lista-menu__titulo{
+    color: var(--laranja);
+}
+.lista-menu__link{
+    background: linear-gradient(97.54deg, #0O2F52 35.49%, #326589 165.37%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparente;
+background-clip:text;
+text-transform: uppercase;
+}
